@@ -6,7 +6,7 @@ const port = 3000
 
 app.use(express.json())
 
-mongoose.connect('mongodb+srv://bedwing06:b4b31s31m11@cluster0.gzt76.mongodb.net/midb?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://usuario:tucontraseña@cluster0.gzt76.mongodb.net/midb?retryWrites=true&w=majority')
 
 app.get('/users', user.list)
 app.post('/users', user.create)
